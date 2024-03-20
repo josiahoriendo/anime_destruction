@@ -7,7 +7,6 @@ export default function Home() {
       <Sidebar />
       <div>
         {/* Other content for your page */}
-        <h1>This is my page content</h1>
       </div>
     </div>
   );
