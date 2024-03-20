@@ -1,4 +1,4 @@
-# anime_destruction
+# destruction_visualizer
 
 This is a project by Josiah Oriendo and Sujal Davhale.
 
