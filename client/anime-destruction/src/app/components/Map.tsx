@@ -41,7 +41,7 @@ const MapComponent: React.FC = () => {
             <div>
                 <style>
                     {`
-                    #map { height: 350px; }
+                    #map { height: 600px; }
                     `}
                 </style>
                 <div id="map"></div>
