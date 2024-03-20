@@ -17,7 +17,12 @@ export default function ShowsDropdown() {
         <DropdownTrigger>
           <Button 
             variant="bordered" 
-            className="capitalize"
+            className="py-3 bg-2 rounded-md text-white text-4xl font-semibold font-sans 
+            after:-z-20 after:absolute after:h-1 after:w-2 after:bg-rose-800 after:translate-y-full 
+            after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700
+            after:duration-700 
+            transition-all duration-700 [text-shadow:3px_5px_2px_#be123c;] 
+            hover:[text-shadow:2px_2px_2px_#fda4af] text-2xl"
           >
             {selectedValue}
           </Button>
