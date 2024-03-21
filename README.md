@@ -6,7 +6,7 @@ The vision: Inspired by Nukemap, we hope to make a website that lets you see the
 
 Technologies we will be using: (MERN Stack)
 - Front-end: React (Next.js framework) with HTML, CSS, and TypeScript
-- Back-end: MongoDB or MySQL wih AWS. Express.JS
+- Back-end: MongoDB or MySQL wih AWS. Express.JS. Considering using Springboot 3
 
 Shows/Anime we will be covering (not sure of specific events yet):
 1. 2012 (Movie)
