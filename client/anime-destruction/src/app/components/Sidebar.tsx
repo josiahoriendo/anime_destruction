@@ -3,11 +3,14 @@
 import { Sidebar } from '@rewind-ui/core';
 import Dropdowns from './Dropdowns.jsx';
 import './Sidebar.css'; // Import CSS file for styling
+import { Main } from 'next/document.js';
+import MapComponent from './Map';
+
 
 
 export default function MapSidebar() {
   return (
-    <div className="w-fit h-fit min-h-[43rem]">
+    <div className="w-fit h-fit min-h-[43rem] z-20">
       <Sidebar className="absolute" color='zinc'>
         <Sidebar.Head>
           <Sidebar.Head.Title className='py-3.5'>Destruction Visualizer</Sidebar.Head.Title>
@@ -45,6 +48,10 @@ export default function MapSidebar() {
           </div>
         </Sidebar.Footer>
       </Sidebar>
+      <div className="w-4/5 h-full z-10">
+        <MapComponent />
+      </div>
     </div>
+
   );
 }

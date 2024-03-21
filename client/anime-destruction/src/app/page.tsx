@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
         <Sidebar />
+        <MapComponent />
         <div className=''></div>
     </div>
   );

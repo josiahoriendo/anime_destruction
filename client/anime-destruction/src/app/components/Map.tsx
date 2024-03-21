@@ -31,7 +31,7 @@ const MapComponent: React.FC = () => {
     }, []);
 
     return (
-        <div className="h-fit w-fit bg-gray-200" id="map"></div>
+        <div style={{ height: '100vh', width: '100vw', backgroundColor: '#ccc', zIndex: 0 }} id="map"></div>
     );
 }
 
