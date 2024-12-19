@@ -22,7 +22,7 @@ export default function MapSidebar() {
             <Sidebar.Nav.Section.Title>Visualizer</Sidebar.Nav.Section.Title>
             <div className="flex flex-col justify-center items-center">
               <Dropdowns></Dropdowns>
-              <button id='destructionButton' className='mt-3'>Destory</button>
+              <button id='destructionButton' className='mt-3'>Destroy</button>
             </div>
             <Sidebar.Nav.Section.Item label="Options" as="button" className='pt-5'>
               <Sidebar.Nav.Section isChild>
